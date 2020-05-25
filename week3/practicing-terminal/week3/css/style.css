@@ -1,0 +1,45 @@
+/* using child element to make the main headline dark green*/
+body > h1 {
+    color:darkgreen;
+
+}
+/* make the main headline center*/
+/* make the main headline font to Georgia*/
+h1{
+    text-align: center;
+    font-family: Georgia;
+}
+
+/* make the sub headline center*/
+/* make the sub headline font to Georgia*/
+h2 {
+    font-family: Georgia;
+    text-align: center
+}
+
+/*This remove the underline from the link*/
+a {
+    text-decoration: none;
+    
+     }
+  /*It will change all lower case to upper case*/
+  .upper {
+    text-transform: uppercase;
+  }
+  
+  /*Makes the image slide to the left with some spase from paragraph*/
+  img{
+      float: left;
+      padding-right: 20px;
+      
+  }
+
+/* ID to add spaces between lines*/
+#paragraph-height{
+    line-height: 25px;
+}
+
+/*  when hover the link a underline will appear*/
+a:hover{
+    text-decoration: underline;
+}
