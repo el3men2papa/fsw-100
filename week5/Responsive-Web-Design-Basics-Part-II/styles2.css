@@ -1,0 +1,75 @@
+
+/*CSS for phone screens*/
+
+@media only screen and (max-width: 800px){
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(10, 2fr);
+    grid-gap: 10px;
+}
+.container header{
+    background-color: Green;
+    grid-column: 1/11;
+}
+.container .sidebar{
+    background-color: red;
+    grid-column: 1/11;
+}
+
+.container .content{
+    background-color: blue;
+    grid-column: 1/11;
+}
+.container .sidebar2{
+    background-color: purple;
+    grid-column: 1/11;
+}
+
+.container footer{
+    background-color: orange;
+    grid-column: 1/11;
+}
+body{
+    color:white;
+    text-align: center;
+    }
+}
+
+
+
+/*CSS for Tablet*/
+
+@media only screen and (min-width: 800px){
+    .container{
+        display:grid;
+        grid-template-columns: repeat(10, 2fr);
+        grid-gap: 10px;
+    }
+    .container header{
+        background-color: Green;
+        grid-column: 1/11;
+    }
+    .container .sidebar{
+        background-color: red;
+        grid-column: 1/4;
+    }
+    
+    .container .content{
+        background-color: pink;
+        grid-column: 4/11;
+        text-align: center;
+        padding: 5px;
+    }
+    .container .sidebar2{
+        background-color: purple;
+        grid-column: 1/11;
+    }
+    
+    .container footer{
+        background-color: orange;
+        grid-column: 1/11;
+    }
+
+
+}
