@@ -1,0 +1,1032 @@
+body{
+    background-color: beige;
+    
+}
+/*Grid Overall good*/
+.flexngridcontainer{
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-gap: 8px;
+    margin: 25px;
+    grid-gap: 8px;
+    margin: 0;
+}
+
+
+
+/*Nav Grid Possition good
+.gridcontainer > nav{
+    background-color: rgb(10, 10, 10);
+        grid-row: 1/ 2;
+        grid-column: 1/100%;
+        height: 100px;
+       
+    }*/
+        /*Header Grid Possition*/
+        .gridcontainer  header{
+           
+                grid-row: 3/auto;
+                grid-column: 1/auto;
+                height: 100px;
+        }
+/*Control the Caution Image*/
+  .headerimg{
+      margin: 10px 0 0 0;
+    width:100% ;
+    height: 500px;
+  }    
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+ 
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+   /* Style the links hover the navigation bar */
+  .topnav a:hover {
+    border-bottom: 3px solid red;
+  }
+  
+   /* Style the links that is Active*/
+  .topnav a.active {
+    border-bottom: 3px solid red;
+  }
+  /*Control the Nav grid
+  .gridcontainer nav a{
+    background-color: #f1f1f1;
+    text-decoration: none;
+    width: 100px;
+    margin: 10px 10px 10px 250px;
+    padding:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+
+    }*/
+     /*Control the Nav  hover 
+    .gridcontainer nav a:hover{
+        background-color: #792a2a;
+        width: 100px;
+        margin: 10px 10px 10px 250px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        }*/
+  /*Control the header Contact Us btn */
+        .headerbtn{
+            position: absolute;
+            bottom: 600px;
+            right: 860px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: rgb(165, 14, 14);
+            color: white;
+            height: 40px;
+            }
+
+           /*Control the header Contact Us btn Text color */ 
+            .headerbtn a{
+                color:white;
+                text-decoration: none;
+                }
+
+               /*Control the header Company Name pssition */      
+                .compname{
+                    position: absolute;
+                    text-align: center;
+                    color:white;
+                    font-size:70px;
+                    bottom: 600px;
+                    left: 30%;
+                    margin: 100px 0 0 0;
+                    height: 250px;
+                    width: 40%;
+                    padding: 5px;
+                    font-family: 'ABeeZee', sans-serif;
+                    }
+
+                      /*Control the header Company model pssition*/      
+                    .model{
+                        position: absolute;
+                        text-align: center;
+                        color:white;
+                        font-size:40px;
+                        bottom: 485px;
+                        left: 30%;
+                        margin: 100px 0 0 0;
+                        height: 250px;
+                        width: 40%;
+                        padding: 5px;
+                        }  
+
+                /*Control main Why the company*/
+                        .why{
+                            
+                            position: absolute;
+                            text-align: center;
+                            top: 500px;
+                            left: 35%;
+                            margin: 100px 0 0 0;
+                            padding: 5px;
+                            font-size: 50px;
+                            color:red;
+                            font-weight: bold;
+                            text-align: center;
+                            }
+
+                              /*Control main your business is ours*/ 
+                            .mainthn2{
+                                position: absolute;
+                                top: 750px;
+                                font-weight: bold;
+                                left:45%;
+                                font-size: 23px;
+                            }
+                                /*Control main your business is ours defenition*/ 
+                                .mainthn3{
+                                    position: absolute;
+                                    height: 1000;
+                                    width: 575px;
+                                    top: 850px;
+                                    left:35%;
+                                    font-size: 15px;  
+                                    text-align: center;
+                                    font-size: 20px;
+                                }
+                                 /*Control main Enviroment*/ 
+                                .mainthn4{
+                                    position: absolute;
+                                    top: 1000px;
+                                    font-weight: bolder;
+                                    left:45%;
+                                    font-size: 23px;
+                                    }
+
+                                    /*Control main Enviroment defenition */  
+                                    .mainthn5{
+                                        position: absolute;
+                                        height: 1000;
+                                        width: 575px;
+                                        top: 1115px;
+                                        left:35%;
+                                        font-size: 15px;  
+                                        text-align: center;
+                                        font-size: 20px;
+                                    }
+
+                                /*Control Section Flex */ 
+                             .sectioncontainer{
+                                 display: flex;
+                                 flex-direction: column;
+                             }
+                        /*Control Section section backround and Works */ 
+                             .howitworks{
+                                 background-color: azure;
+                                position: absolute;
+                                text-align: center;
+                                top:1215px;
+                                bottom: 0px;
+                                left: 0;
+                                right: 25px;
+                                margin: 100px 0 0 0;
+                                height: 1000px;
+                                width: 96%;
+                                padding: 35px;
+                                font-size: 50px;
+                                color:red;
+                                font-weight: bold;
+                                }
+                             /*Control Section Booking picture */ 
+                             .img1{
+                                 position: absolute;
+                                 top: 1515px;
+                                 left: 130px;
+                                border-radius: 50%;
+                                  width: 300px;
+                                  height: 300px;
+                                  margin: 0 0 20px 0;
+                              }
+
+                               /*Control Section Booking*/ 
+                            .book{
+                                position: absolute;
+                                top:1715px;
+                                bottom: 0px;
+                                left: 200px;
+                                margin: 100px 0 0 0;
+                                height: 1000px;
+                                padding: 35px;
+                                font-size: 50px;
+                                font-weight: lighter;
+                            }
+                             /*Control Section Booking Desc*/ 
+                            .bookdesc{
+                                position: absolute;
+                                height: 1000;
+                                width: 575px;
+                                top: 1955px;
+                                left:25px;
+                                font-size: 15px;  
+                                text-align: center;
+                                font-size: 20px;
+                            }
+ /*Control Section Cleaning picture */ 
+                            .img2{
+                                position: absolute;
+                                top: 1515px;
+                                left: 790px;
+                               border-radius: 50%;
+                                 width: 300px;
+                                 height: 300px;
+                                 margin: 0 0 20px 0;
+                             }
+                             /*Control Section Cleaning*/ 
+                             .cleaning{
+                                position: absolute;
+                                top:1715px;
+                                bottom: 0px;
+                                left: 850px;
+                                margin: 100px 0 0 0;
+                                height: 1000px;
+                                padding: 35px;
+                                font-size: 50px;
+                                font-weight: lighter;
+                            }
+                            /*Control Section Cleaning Desc*/ 
+                            .cleaningdesc{
+                                position: absolute;
+                                height: 1000;
+                                width: 575px;
+                                top: 1955px;
+                                left:650px;
+                                font-size: 15px;  
+                                text-align: center;
+                                font-size: 20px;
+                            }
+           /*Control Section Relax picture */ 
+                        .img3{
+                            position: absolute;
+                            top: 1515px;
+                            left: 1430px;
+                           border-radius: 50%;
+                             width: 300px;
+                             height: 300px;
+                             margin: 0 0 20px 0;
+                        }
+                         /*Control Section Relax*/ 
+                        .relax{
+                            position: absolute;
+                            top:1715px;
+                            bottom: 0px;
+                            left: 1490px;
+                            margin: 100px 0 0 0;
+                            height: 1000px;
+                            padding: 35px;
+                            font-size: 50px;
+                            font-weight: lighter;
+                        }
+                       /*Control Section Relax Desc*/ 
+                    .relaxdesc{
+                        position: absolute;
+                                height: 1000;
+                                width: 575px;
+                                top: 1955px;
+                                left:1300px;
+                                font-size: 15px;  
+                                text-align: center;
+                                font-size: 20px;
+                    }
+   /*Control footer Copy wrights*/ 
+                    .copywright{
+                        position: absolute;
+                        height: 1000;
+                        width: 575px;
+                        top: 2455px;
+                        left:25px;
+                        font-size: 15px;  
+                        text-align: center;
+                        font-size: 20px;
+                    }
+
+
+
+
+
+/*Here Start Contact HTML*/
+
+
+/*Main contact us possition*/
+.contactus{
+    position: absolute;
+    text-align: center;
+    top: 500px;
+    left: 45%;
+    margin: 100px 0 0 0;
+    padding: 5px;
+    font-size: 50px;
+    color:red;
+    font-weight: bold;
+    text-align: center;
+    }
+/*Main Question or Answer possition*/
+    .QC{
+    position: absolute;
+    top: 675px;
+    font-weight: bold;
+    left:45%;
+    font-size:23px; 
+    }
+    /*Main Question or Answer Description*/
+    .QCdesc1{
+position: absolute;
+height: 1000;
+width: 575px;
+top: 750px;
+left:37%;
+font-size: 15px;  
+text-align: center;
+font-size: 20px;
+}
+/*Main Question or Answer Description 2*/
+.QCdesc2{
+    position: absolute;
+    height: 1000;
+    width: 575px;
+    top: 850px;
+    left:37%;
+    font-size: 15px;  
+    text-align: center;
+    font-size: 20px; 
+}
+/*Main Question or Answer Description 3*/
+.QCdesc3{
+    position: absolute;
+    height: 1000;
+    width: 575px;
+    top: 950px;
+    left:37%;
+    font-size: 15px;  
+    text-align: center;
+    font-size: 20px; 
+    
+}
+.phonetable{
+    position: absolute;
+    height: 1000;
+    width: 575px;
+    top: 1050px;
+    left:37%;
+    font-size: 15px;  
+    text-align: center;
+    font-size: 20px; 
+}
+
+
+
+/*Here start the Services Page*/
+
+/*Main what includes*/
+.Services{
+    position: absolute;
+    text-align: center;
+    top: 500px;
+    left: 27%;
+    margin: 100px 0 0 0;
+    padding: 5px;
+    font-size: 50px;
+    color:red;
+    font-weight: bold;
+    text-align: center; 
+}
+/*Main Bedroon, Living room etc List*/
+.mainrooms{
+    position: absolute;
+    height: 1000;
+    width: 575px;
+    top: 750px;
+    left:5%;
+    font-size: 15px;  
+    font-size: 20px; 
+}
+/*Main Bedroon, Living room etc list bold*/
+.mainrooms p{
+    font-weight: bold;
+}
+/*Main Bathroom List*/
+.mainrooms2{
+    position: absolute;
+    height: 1000;
+    width: 575px;
+    top: 750px;
+    left:35%;
+    font-size: 15px;  
+    font-size: 20px; 
+}
+/*Main Bathroom etc list bold*/
+.mainrooms2 p{
+    font-weight: bold;
+}
+/*Main Extra List*/
+.mainrooms3{
+    position: absolute;
+    height: 1000;
+    width: 575px;
+    top: 750px;
+    left:65%;
+    font-size: 15px;  
+    font-size: 20px; 
+}
+/*Main Extra list bold*/
+.mainrooms3 p{
+    font-weight: bold;
+}
+
+/*Here Start About us HTML*/
+
+
+/*Main contact us possition*/
+.aboutus{
+    position: absolute;
+    text-align: center;
+    top: 500px;
+    left: 45%;
+    margin: 100px 0 0 0;
+    padding: 5px;
+    font-size: 50px;
+    color:red;
+    font-weight: bold;
+    text-align: center;
+    }
+/*Main Question or Answer possition*/
+    .ourm{
+    position: absolute;
+    top: 675px;
+    font-weight: bold;
+    left:45%;
+    font-size:23px; 
+    }
+    /*Main Question or Answer Description*/
+    .aboutdesc1{
+position: absolute;
+height: 1000;
+width: 575px;
+top: 750px;
+left:37%;
+font-size: 15px;  
+text-align: center;
+font-size: 20px;
+}
+/*Main Question or Answer Description 2*/
+.aboutdesc2{
+    position: absolute;
+    height: 1000;
+    width: 575px;
+    top: 850px;
+    left:37%;
+    font-size: 15px;  
+    text-align: center;
+    font-size: 20px; 
+}
+/*Main Question or Answer Description 3*/
+.aboutdesc3{
+    position: absolute;
+    height: 1000;
+    width: 575px;
+    top: 950px;
+    left:37%;
+    font-size: 15px;  
+    text-align: center;
+    font-size: 20px; 
+    
+}
+
+
+/*Main Page Media*/
+
+@media only screen and (max-width:736px) and (min-width:414px){
+    body{
+        background-color:  beige;
+        
+    }
+    /*Grid Overall good*/
+    .flexngridcontainer{
+        display:grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12,1fr);
+        grid-gap: 8px;
+        margin: 25px;
+        grid-gap: 8px;
+        margin: 0;
+    }
+    
+    
+    
+    /*Nav Grid Possition good
+    .gridcontainer > nav{
+        background-color: rgb(10, 10, 10);
+            grid-row: 1/ 2;
+            grid-column: 1/100%;
+            height: 100px;
+           
+        }*/
+            /*Header Grid Possition*/
+            .gridcontainer  header{
+               
+                    grid-row: 3/auto;
+                    grid-column: 1/auto;
+                    height: 100px;
+            }
+    /*Control the Caution Image*/
+      .headerimg{
+          margin: 10px 0 0 0;
+        width:1230px ;
+        height: 500px;
+      }    
+    /* Add a black background color to the top navigation */
+    .topnav {
+        width: 1230px;
+        height: 100px;
+        background-color: #333;
+        overflow: hidden;
+      }
+     
+      /* Style the links inside the navigation bar */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        border-bottom: 3px solid transparent;
+        font-size: 40px;
+      }
+       /* Style the links hover the navigation bar */
+      .topnav a:hover {
+        border-bottom: 3px solid red;
+      }
+      
+       /* Style the links that is Active*/
+      .topnav a.active {
+        border-bottom: 3px solid red;
+      }
+      /*Control the Nav grid
+      .gridcontainer nav a{
+        background-color: #f1f1f1;
+        text-decoration: none;
+        width: 100px;
+        margin: 10px 10px 10px 250px;
+        padding:10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+    
+        }*/
+         /*Control the Nav  hover 
+        .gridcontainer nav a:hover{
+            background-color: #792a2a;
+            width: 100px;
+            margin: 10px 10px 10px 250px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+            }*/
+      /*Control the header Contact Us btn 
+            .headerbtn{
+                position: absolute;
+                bottom: 600px;
+                right: 860px;
+                padding-left: 20px;
+                padding-right: 20px;
+                background-color: rgb(165, 14, 14);
+                color: white;
+                height: 40px;
+                }*/
+    
+               /*Control the header Contact Us btn Text color 
+                .headerbtn a{
+                    color:white;
+                    text-decoration: none;
+                    }*/ 
+    
+                   /*Control the header Company Name pssition */      
+                    .compname{
+                        position: absolute;
+                        text-align: center;
+                        color:white;
+                        font-size:70px;
+                        bottom: 300px;
+                        left: 45%;
+                        margin: 100px 0 0 0;
+                        height: 250px;
+                        width: 800px;
+                        padding: 5px;
+                        font-family: 'ABeeZee', sans-serif;
+                        }
+    
+                          /*Control the header Company model pssition*/      
+                        .model{
+                            position: absolute;
+                            text-align: center;
+                            color:white;
+                            font-size:60px;
+                            bottom: 285px;
+                            left: 50%;
+                            margin: 100px 0 0 0;
+                            height: 110px;
+                            width: 800px;
+                            padding: 5px;
+                            }  
+    
+                    /*Control main Why the company*/
+                            .why{
+                               
+                                position: absolute;
+                                text-align: center;
+                                top: 500px;
+                                left: 50%;
+                                margin: 100px 0 0 0;
+                                padding: 5px;
+                                font-size: 50px;
+                                width: 700px;
+                                color:red;
+                                font-weight: bold;
+                                text-align: center;
+                                }
+    
+                                  /*Control main your business is ours*/ 
+                                .mainthn2{
+                                    position: absolute;
+                                    top: 730px;
+                                    font-weight: bold;
+                                    left:80%;
+                                    font-size: 50px;
+                                    width: 700px;
+                                }
+                                    /*Control main your business is ours defenition*/ 
+                                    .mainthn3{
+                                        position: absolute;
+                                        height: 1000;
+                                        width: 975px;
+                                        top: 850px;
+                                        left:25%;
+                                        text-align: center;
+                                        font-size: 50px;
+                                    }
+                                     /*Control main Enviroment*/ 
+                                    .mainthn4{
+                                        position: absolute;
+                                        top: 1200px;
+                                        font-weight: bolder;
+                                        left:80%;
+                                        width: 775px;
+                                        font-size: 50px;
+                                        }
+    
+                                        /*Control main Enviroment defenition */  
+                                        .mainthn5{
+                                            position: absolute;
+                                            height: 1000;
+                                            width: 875px;
+                                            top: 1315px;
+                                            left:35%;
+                                            font-size: 50px;  
+                                            text-align: center;
+                                          
+                                        }
+    
+                                    /*Control Section Flex */ 
+                                 .sectioncontainer{
+                                     display: flex;
+                                     flex-direction: column;
+                                 }
+                            /*Control Section section backround and Works */ 
+                                 .howitworks{
+                                     background-color: azure;
+                                    position: absolute;
+                                    text-align: center;
+                                    top:1615px;
+                                    bottom: 0px;
+                                    left: 0;
+                                    right: 25px;
+                                    margin: 100px 0 0 0;
+                                    height: 3500px;
+                                    width: 1180px;
+                                    padding: 35px;
+                                    font-size: 50px;
+                                    color:red;
+                                    font-weight: bold;
+                                    }
+                                 /*Control Section Booking picture */ 
+                                 .img1{
+                                     position: absolute;
+                                     top: 1915px;
+                                     left: 330px;
+                                    border-radius: 50%;
+                                      width: 500px;
+                                      height: 500px;
+                                      margin: 0 0 20px 0;
+                                  }
+    
+                                   /*Control Section Booking*/ 
+                                .book{
+                                    position: absolute;
+                                    top:2315px;
+                                    bottom: 0px;
+                                    left: 480px;
+                                    margin: 100px 0 0 0;
+                                    height: 1000px;
+                                    padding: 35px;
+                                    font-size: 70px;
+                                    font-weight: lighter;
+                                }
+                                 /*Control Section Booking Desc*/ 
+                                .bookdesc{
+                                    position: absolute;
+                                    height: 1000;
+                                    width: 775px;
+                                    top: 2555px;
+                                    left:200px;
+                                    text-align: center;
+                                    font-size: 50px;
+                                }
+     /*Control Section Cleaning picture */ 
+                                .img2{
+                                    position: absolute;
+                                    top: 3000px;
+                                    left: 330px;
+                                   border-radius: 50%;
+                                     width: 500px;
+                                     height: 500px;
+                                     margin: 0 0 20px 0;
+                                 }
+                                 /*Control Section Cleaning*/ 
+                                 .cleaning{
+                                    position: absolute;
+                                    top:3415px;
+                                    bottom: 0px;
+                                    left: 480px;
+                                    margin: 100px 0 0 0;
+                                    height: 1000px;
+                                    padding: 35px;
+                                    font-size: 70px;
+                                    font-weight: lighter;
+                                }
+                                /*Control Section Cleaning Desc*/ 
+                                .cleaningdesc{
+                                    position: absolute;
+                                    height: 1000;
+                                    width: 775px;
+                                    top: 3655px;
+                                    left:200px;
+                                    text-align: center;
+                                    font-size: 50px;
+                                }
+               /*Control Section Relax picture */ 
+                            .img3{
+                                position: absolute;
+                                top: 4070px;
+                                left: 330px;
+                               border-radius: 50%;
+                                 width: 500px;
+                                 height: 500px;
+                                 margin: 0 0 20px 0;
+                            }
+                             /*Control Section Relax*/ 
+                            .relax{
+                                position: absolute;
+                                top:4500px;
+                                bottom: 0px;
+                                left: 480px;
+                                margin: 100px 0 0 0;
+                                height: 1000px;
+                                padding: 35px;
+                                font-size: 70px;
+                                font-weight: lighter;
+                            }
+                           /*Control Section Relax Desc*/ 
+                        .relaxdesc{
+                            position: absolute;
+                                    height: 1000;
+                                    width: 775px;
+                                    top: 4800px;
+                                    left:200px;
+                                    font-size: 50px;  
+                                    text-align: center;
+                                   
+                        }
+       /*Control footer Copy wrights*/ 
+                        .copywright{
+                            position: absolute;
+                            height: 1000;
+                            width: 775px;
+                            top: 5300px;
+                            left:25px;
+                            font-size: 50px;  
+                            text-align: center;
+                            color: blue;
+                            
+                        }
+    
+    /*Here start the Services Page*/
+
+/*Main what includes*/
+.Services{
+    position: absolute;
+    text-align: center;
+    top: 550px;
+    width: 1176px;
+    height: 200px;
+    left: 7%;
+    margin: 100px 0 0 0;
+    padding: 5px;
+    font-size: 70px;
+    color:red;
+    font-weight: bold;
+    text-align: center; 
+}
+/*Main Bedroon, Living room etc List*/
+.mainrooms{
+    position: absolute;
+    height: 1000;
+    width: 875px;
+    top: 750px;
+    left:50%;
+    font-size: 50px;  
+    
+}
+/*Main Bedroon, Living room etc list bold*/
+.mainrooms p{
+    font-weight: bold;
+}
+/*Main Bathroom List*/
+.mainrooms2{
+    position: absolute;
+    height: 1000;
+    width: 875px;
+    top: 1350px;
+    left:50%;
+    font-size: 50px;  
+  
+}
+/*Main Bathroom etc list bold*/
+.mainrooms2 p{
+    font-weight: bold;
+}
+/*Main Extra List*/
+.mainrooms3{
+    position: absolute;
+    height: 1000;
+    width: 875px;
+    top: 1950px;
+    left:50%;
+    font-size: 50px;  
+   
+}
+/*Main Extra list bold*/
+.mainrooms3 p{
+    font-weight: bold;
+}
+
+
+/*Here Start Contact HTML*/
+
+
+/*Main contact us possition*/
+.contactus{
+    position: absolute;
+    text-align: center;
+    top: 550px;
+    width: 770px;
+    left: 45%;
+    margin: 100px 0 0 0;
+    padding: 5px;
+    font-size: 75px;
+    color:red;
+    font-weight: bold;
+    text-align: center;
+    }
+/*Main Question or Answer possition*/
+    .QC{
+    position: absolute;
+    top: 750px;
+    width: 770px;
+    font-weight: bold;
+    left:300px;
+    font-size:50px; 
+    }
+    /*Main Question or Answer Description*/
+    .QCdesc1{
+position: absolute;
+height: 1000;
+width: 875px;
+top: 850px;
+left:150px;
+font-size: 50px;  
+text-align: center;
+
+}
+/*Main Question or Answer Description 2*/
+.QCdesc2{
+    position: absolute;
+    height: 1000;
+    width: 875px;
+    top: 1150px;
+    left:150px;
+    font-size: 50px;  
+    text-align: center;
+    
+}
+/*Main Question or Answer Description 3*/
+.QCdesc3{
+    position: absolute;
+    height: 1000;
+    width: 875px;
+    top: 1350px;
+    left:37%;
+    font-size: 50px;  
+    text-align: center;
+   
+    
+}
+.phonetable{
+    position: absolute;
+    height: 1000;
+    padding: 1px;
+    width: 1230px;
+    top: 1550px;
+    left:5px;
+    font-size: 50px;  
+    text-align: left;
+   
+
+}
+/*Main About us possition*/
+.aboutus{
+    position: absolute;
+    text-align: center;
+    top: 550px;
+    left: 10%;
+    width: 1070px;
+    margin: 100px 0 0 0;
+    padding: 5px;
+    font-size: 70px;
+    color:red;
+    font-weight: bold;
+    text-align: center;
+    }
+/*Main Question or Answer possition*/
+    .ourm{
+    position: absolute;
+    top: 690px;
+    width: 775px;
+    font-weight: bold;
+    left:85%;
+    font-size:50px; 
+    }
+    /*Main Question or Answer Description*/
+    .aboutdesc1{
+position: absolute;
+height: 1000;
+width: 775px;
+top: 810px;
+left:40%;
+font-size: 15px;  
+text-align: center;
+font-size: 50px;
+}
+/*Main Question or Answer Description 2*/
+.aboutdesc2{
+    position: absolute;
+    height: 1000;
+    width: 775px;
+    top: 1300px;
+    left:40%;
+    font-size: 50px;  
+    text-align: center;
+  
+}
+/*Main Question or Answer Description 3*/
+.aboutdesc3{
+    position: absolute;
+    height: 1000;
+    width: 775px;
+    top: 1750px;
+    left:40%;
+    font-size: 50px;  
+    text-align: center;
+ 
+}
+}
