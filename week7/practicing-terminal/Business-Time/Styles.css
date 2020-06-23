@@ -383,6 +383,7 @@ font-size: 20px;
 }
 .phonetable{
     position: absolute;
+    margin: 0 0 20px 0;
     height: 1000;
     width: 575px;
     top: 1050px;
