@@ -310,6 +310,7 @@ body{
    /*Control footer Copy wrights*/ 
                     .copywright{
                         position: absolute;
+                        color:blue;
                         height: 1000;
                         width: 575px;
                         top: 2455px;
