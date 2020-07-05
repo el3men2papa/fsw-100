@@ -1,0 +1,1 @@
+document.getElementById ("element").innerHTML="My Name is Jochy"

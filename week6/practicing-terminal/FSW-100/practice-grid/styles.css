@@ -1,0 +1,113 @@
+
+*{
+    box-sizing: border-box; /* Will make a border between boxes */
+}
+
+nav{
+    background-color: #F5C6D6; /* set a color for inside contents fiels and border */
+    border:3px solid #F5C6D6;/* set a color for inside contents fiels and border */
+    padding:15px; /* Padding on all the sides*/
+    Margin:0; /* No margin on all the sides*/
+       height: 150px; /*dimentions for the nav  */
+    width: 100%; /*dimentions for the nav  */
+    position:fixed;/* Nav set to fixed to be able to follow scrow */
+}
+
+.item1{
+    position: absolute;
+    background-color: #EE2E84;
+    top: 100px;
+    left: 10px;
+    margin: 100px 0 0 0;
+    height: 25%;
+    width: 25%;
+    
+    }
+
+    .item2{
+        position: absolute;
+        background-color: #EE2E84;
+        top: 100px;
+        left: 510px;
+        margin: 100px 0 0 0;
+        height: 25%;
+        width: 25%;
+        }
+
+        .item3{
+            position: absolute;
+            background-color: #EE2E84;
+            top: 100px;
+            left: 1010px;
+            margin: 100px 0 0 0;
+            height: 25%;
+            width: 25%;
+            text-align: center;
+            }
+
+            .item4{
+                position: absolute;
+                background-color: #EE2E84;
+                top: 100px;
+                left: 1510px;
+                margin: 100px 0 0 0;
+                height: 25%;
+                width: 25%;
+                }
+
+                img{
+                    
+                    width: 40%;
+                    height: 40%;
+                    float: left;
+                    padding: 5px;
+                    
+                }
+
+                p{
+                    text-indent: 50px;
+                    padding: 10px;
+                    
+                }
+
+                .item5{
+                    position: absolute;
+                    background-color: #85CFD8;
+                    top: 335px;
+                    left: 10px;
+                    margin: 100px 0 0 0;
+                    height: 25%;
+                    width: 51%;
+                    }
+
+                    .item6{
+                        position: absolute;
+                        background-color: #85CFD8;
+                        top: 335px;
+                        left: 1010px;
+                        margin: 100px 0 0 0;
+                        height: 25%;
+                        width: 50%;
+                        }
+
+                        .item7{
+                            position: absolute;
+                            background-color: #8DC63F;
+                            top: 570px;
+                            left: 10px;
+                            margin: 100px 0 0 0;
+                            height: 25%;
+                            width: 77.5%;
+                            }
+
+                            .item8{
+                                position: absolute;
+                                background-color: #E76E34;
+                                top: 570px;
+                                left: 1510px;
+                                margin: 100px 0 0 0;
+                                height: 25%;
+                                width: 25%;
+                                }
+
+  

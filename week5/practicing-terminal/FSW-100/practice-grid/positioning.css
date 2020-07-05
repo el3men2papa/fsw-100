@@ -1,0 +1,99 @@
+nav{
+    background-color: #F5C6D6; /* set a color for inside contents fiels and border */
+    border:3px solid rgb(160, 167, 162);/* set a color for inside contents fiels and border */
+    /*padding:15px;  Padding on all the sides*/
+    
+       height: 150px; /*dimentions for the nav  */
+    width: 100%; /*dimentions for the nav  */
+    position:fixed;/* Nav set to fixed to be able to follow scrow */
+}
+
+  .topnav a {
+    float: center;
+    color: #151515;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  img{
+    height: 150px;
+    display: block;
+    margin: 10px auto auto 5px ;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+h2{
+    text-align: center;
+}
+    .logo{
+        border:3px solid rgb(160, 167, 162);
+        height: 130px;
+        float: left;
+        margin: 10px 0 10px 5px;
+    }
+    .img1{
+        margin: 10px;           
+       float: left;
+      }
+      .img2{
+        margin: 10px;           
+       float: left;
+      }
+      .img3{
+        margin: 10px;           
+       float: left;
+      }
+      .img4{
+        margin: 10px;           
+       float: left;
+      }
+    .item1{
+        
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        top: 70px;
+        left: 30%;
+        margin: 100px 0 0 0;
+        height: 250px;
+        width: 40%;
+        padding: 5px;
+    }
+
+    .item2{
+        float: right;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        top: 440px;
+        left: 30%;
+        margin: 100px 0 0 0;
+        height: 500px;
+        width: 40%;
+    }
+
+    
+    .item3{
+
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        top: 840px;
+        left: 30%;
+        margin: 100px 0 0 0;
+        height: 150px;
+        width: 40%;
+    }
+
+       
+    .item4{
+
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        top: 1240px;
+        left: 30%;
+        margin: 100px 0 0 0;
+        height: 150px;
+        width: 40%;
+    }
