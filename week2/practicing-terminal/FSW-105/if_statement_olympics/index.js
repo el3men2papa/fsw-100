@@ -12,7 +12,7 @@ console.log ("is greater than")
 "is the length" if the length of "cat" is 3 */
 
 var str = "cat"
-if (str.lenght = 3){
+if (str.lenght == 3){
 console.log("is the length")
 }
 else {
@@ -41,8 +41,8 @@ var person ={
     age: 18
     };
 var firstLetter = person.fullName.charAt(0)
-if(person.age <= 18){
- console.log("Is allowed to go to the movie")
+if(person.age >= 18){
+  console.log(person.fullName +" " + "is allowed to go to the movie")
 };
 
 /* 2. Using that same object, only allow them into the movie
@@ -64,10 +64,10 @@ if(firstLetter === "B" && person.age <= 18){
 /* 1.Write an if/else if/else statement that prints "strict" if 1 
 strictly equals "1", */
 if(1==="1"){
-  
+  console.log("Strict")
 }
 else{
-  console.log("Strict")
+ 
 };
 
 /* 2.prints "loose" or "abstract" if 1 equals "1" without type checking, and 
@@ -91,11 +91,11 @@ else{
 /* 1.Write an if statement that checks to see if "dog" is a string */
 
 var dog = "dog";
-typeof dog;
+console.log("Dog is a "+""+typeof dog);
 
 /* 2.Write an if statement that checks to see if "true" is a boolean */
 var boolean = true;
-console.log(typeof boolean);
+console.log("True is a " +""+typeof boolean);
 
 /* 3.Write an if statement that checks to see if a variable has been defined or not */
 var x;
